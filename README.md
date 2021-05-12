@@ -18,3 +18,4 @@
 
 ## WEB or WEB in Java
 * ### [최초의 동적 프로그래밍 CGI](/WEB/DynamicContent/CGI.md)
+* ### [웹 애플리케이션의 기본구조 ](/WEB/WebApplication.md)
