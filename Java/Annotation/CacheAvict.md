@@ -10,4 +10,4 @@
 @CacheEvict(value="cacheKey"), @CacheEvict(value="cacheKey", allEntries=true)
 ```
 
-* #### allEntries는 전체 캐시를 지울지 여부를 선택하는 것이다.
+* #### allEntries는 전체 캐시를 지울지 여부를 선택하는 것이다. 
