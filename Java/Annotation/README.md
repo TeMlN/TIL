@@ -13,3 +13,9 @@
 
 ## Annotation의 종류
 * [@Override](/Java/Annotation/Override.md)
+* [@GetMapping](/Java/Annotation/GetMapping.md)
+* [@RestController](/Java/Annotation/RestController.md)
+* [@SpringBootApplication](/Java/Annotation/SpringBootApplication.md)
+* etc...
+
+#### 너무 많은 관계로 다 정리하지 못하였습니다 죄송합니다
