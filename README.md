@@ -1,8 +1,7 @@
 # Java-Web
 
-### 자바와 자바를 이용하여 웹을 다루는 기술들과 웹 프로그래밍 지식을 닮은 저장소입니다
+## 기억보단 기록을.
 
-<br>
 <br>
 
 ## Dev
@@ -22,6 +21,11 @@
 * ### [Bean을 주입받는 방식](/Spring/GetBean.md)
 * ### [Controller 와 RestController의 차이](/Spring/RestConOrCon.md)
 * ### [Spring 웹 계층](/Spring/StaticContent.md)
+
+## Git
+* ### [git을 아용한 협업방식 git-flow](/Git/git-flow.md)
+* ### [gitignore가 먹지 않을때](/Git/gitignore.md)
+* ### [git의 Repository 구조](/Git/GitRepositoryConfig.md)
 
 ## TestCode
 * ### [RedGreenCycle 사이클](Spring/TestCode/RedGreenCycle.md)
