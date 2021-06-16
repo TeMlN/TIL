@@ -23,7 +23,7 @@
 * ### [Spring 웹 계층](/Spring/StaticContent.md)
 
 ## Git
-* ### [git을 아용한 협업방식 git-flow](/Git/git-flow.md)
+* ### [git을 이용한 협업방식 git-flow](/Git/git-flow.md)
 * ### [gitignore가 먹지 않을때](/Git/gitignore.md)
 * ### [git의 Repository 구조](/Git/GitRepositoryConfig.md)
 
