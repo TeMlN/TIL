@@ -23,6 +23,9 @@
 * ### [DTO Object](/Spring/DTO.md)
 * ### [Entity CLass](/Spring/EntityClass.md)
 
+## CS (Computer Science)
+* ### [동기와 비동기의 장단점과 정의](/CS/SynchAsynch.md)
+
 ## Git
 * ### [git을 이용한 협업방식 git-flow](/Git/git-flow.md)
 * ### [gitignore가 먹지 않을때](/Git/gitignore.md)
