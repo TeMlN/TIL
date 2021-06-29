@@ -17,6 +17,7 @@
 * #### [자바의 Optional의 정의와 사용법](/Java/Optional.md)
 
 ### Spring
+* #### [영속성 컨텍스트란?](/Spring/JPA/Persistence.md)
 * #### [Spring의 MVC와 템플릿 엔진](/Spring/MVC.md)
 * #### [Spring의 정적컨텐츠](/Spring/StaticContent.md)
 * #### [Spring의 @ResponseBody의 사용법](/Spring/ResponseBody.md)
