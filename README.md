@@ -36,6 +36,10 @@
 * #### [gitignore가 먹지 않을때](/Git/gitignore.md)
 * #### [git의 Repository 구조](/Git/GitRepositoryConfig.md)
 
+### Error
+* #### [intelliJ 에서 되던 import들이 안될때](/Error/NotImport.md)
+* #### [각 상황에 맞는 Http 에러 메세지](/Error/HttpErrorMessage.md)
+
 ### TestCode
 * #### [RedGreenCycle 사이클](Spring/TestCode/RedGreenCycle.md)
 * #### [테스트 코드의 종류](/Spring/TestCode/TDD-UnitTest.md)
