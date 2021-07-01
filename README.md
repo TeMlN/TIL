@@ -52,3 +52,4 @@
 ### etc
 * #### [동적 컨텐츠 CGI](/WEB/DynamicContent/CGI.md)
 * #### [동적 컨텐츠 JSP](/WEB/DynamicContent/JSP.md)
+* #### [페어 프로그래밍](/Programming/FairProgramming.md)
