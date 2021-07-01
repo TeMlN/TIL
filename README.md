@@ -6,13 +6,13 @@
 * #### [Dev-ops : Docker](/Dev-ops/Docker.md)
 
 ### Java
-* #### [OOP (객채 지향 프로그래밍)](/OOP/oop.md)
+* #### [OOP (객체 지향 프로그래밍)](/OOP/oop.md)
     * #### [인스턴스](/OOP/Instance.md)
         * ##### [클래스의 인스턴스화](/OOP/instantiationOfClass.md)
         * ##### [인스턴스의 생성과 사용](/OOP/CreateUseInstance.md)
         * ##### [인스턴스의 구성요소](/OOP/InstanceConfig.md)
         * ##### [클래스와 인스턴스의 관계](/OOP/ClassAndInstance.md)
-* #### [좋은 객채 지향 프로그래밍을 위한 다섯가지 원칙 SOLID](/OOP/SOLID.md)
+* #### [좋은 객체 지향 프로그래밍을 위한 다섯가지 원칙 SOLID](/OOP/SOLID.md)
 * #### [Annotation의 정의와 종류](/Java/Annotation/README.md)
 * #### [자바의 Optional의 정의와 사용법](/Java/Optional.md)
 
