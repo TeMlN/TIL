@@ -21,6 +21,12 @@
     * ##### [영속성 컨텍스트란?](/Spring/JPA/Persistence.md)
     * ##### [단방향 연관관계](/Spring/JPA/UnidirectionalRelation.md)
     * ##### [JPA 연관관계 매핑](/Spring/JPA/JPARelationMapping.md)
+
+* ##### TestCode
+    * ##### [RedGreenCycle 사이클](Spring/TestCode/RedGreenCycle.md)
+    * ##### [테스트 코드의 종류](/Spring/TestCode/TDD-UnitTest.md)
+    * ##### [테스트 코드를 작성해야 하는 이유](/Spring/TestCode/WhyTestCode.md)
+
 * ##### [Spring의 MVC와 템플릿 엔진](/Spring/MVC.md)
 * ##### [Spring의 정적컨텐츠](/Spring/StaticContent.md)
 * ##### [Spring의 @ResponseBody의 사용법](/Spring/ResponseBody.md)
@@ -41,11 +47,6 @@
 #### Error
 * ##### [intelliJ 에서 되던 import들이 안될때](/Error/NotImport.md)
 * ##### [각 상황에 맞는 Http 에러 메세지](/Error/HttpErrorMessage.md)
-
-#### TestCode
-* ##### [RedGreenCycle 사이클](Spring/TestCode/RedGreenCycle.md)
-* ##### [테스트 코드의 종류](/Spring/TestCode/TDD-UnitTest.md)
-* ##### [테스트 코드를 작성해야 하는 이유](/Spring/TestCode/WhyTestCode.md)
 
 #### WEB or WEB in Java
 * ##### [최초의 동적 프로그래밍 CGI](/WEB/DynamicContent/CGI.md)
