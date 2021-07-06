@@ -21,12 +21,14 @@
     * ##### [영속성 컨텍스트란?](/Spring/JPA/Persistence.md)
     * ##### [단방향 연관관계](/Spring/JPA/UnidirectionalRelation.md)
     * ##### [JPA 연관관계 매핑](/Spring/JPA/JPARelationMapping.md)
+    * ##### [JPA 에서 중요한 것](/Spring/JPA/MostImportantInJPA.md)
 
 * ##### TestCode
     * ##### [RedGreenCycle 사이클](Spring/TestCode/RedGreenCycle.md)
     * ##### [테스트 코드의 종류](/Spring/TestCode/TDD-UnitTest.md)
     * ##### [테스트 코드를 작성해야 하는 이유](/Spring/TestCode/WhyTestCode.md)
 
+* ##### [properties 파일을 yml 전환하는 방법](/Spring/PropertiesToYAML.md)
 * ##### [Spring의 MVC와 템플릿 엔진](/Spring/MVC.md)
 * ##### [Spring의 정적컨텐츠](/Spring/StaticContent.md)
 * ##### [Spring의 @ResponseBody의 사용법](/Spring/ResponseBody.md)
@@ -35,6 +37,9 @@
 * ##### [Spring 웹 계층](/Spring/StaticContent.md)
 * ##### [DAO Object](/Spring/DAO.md)
 * ##### [Entity CLass](/Spring/EntityClass.md)
+
+#### DataBase
+* ##### [인 메모리 Database Redis](/Database/Redis.md)
 
 #### CS (Computer Science)
 * ##### [동기와 비동기의 장단점과 정의](/CS/SynchAsynch.md)
