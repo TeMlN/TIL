@@ -22,6 +22,7 @@
     * ##### [단방향 연관관계](/Spring/JPA/UnidirectionalRelation.md)
     * ##### [JPA 연관관계 매핑](/Spring/JPA/JPARelationMapping.md)
     * ##### [JPA 에서 중요한 것](/Spring/JPA/MostImportantInJPA.md)
+    * ##### [무조건 양뱡향 매핑을 한다면?](/Spring/JPA/OnlyBidirectional.md)
 
 * ##### TestCode
     * ##### [RedGreenCycle 사이클](Spring/TestCode/RedGreenCycle.md)
