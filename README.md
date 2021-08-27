@@ -30,6 +30,10 @@
     * ##### [테스트 코드의 종류](/Spring/TestCode/TDD-UnitTest.md)
     * ##### [테스트 코드를 작성해야 하는 이유](/Spring/TestCode/WhyTestCode.md)
 
+* ##### 배포
+    * ##### [JAR 배포](/Spring/Deployment/JAR.md)
+    * ##### [WAR 배포](/Spring/Deployment/WAR.md)
+
 * ##### [properties 파일을 yml 전환하는 방법](/Spring/PropertiesToYAML.md)
 * ##### [Spring의 MVC와 템플릿 엔진](/Spring/MVC.md)
 * ##### [Spring의 정적컨텐츠](/Spring/StaticContent.md)
