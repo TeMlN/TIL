@@ -34,7 +34,7 @@ compile group: 'org.modelmapper', name: 'modelmapper', version: '2.3.0'
 ```
 
 * Maven
-```groovy
+```html
 <dependency>
   <groupId>org.modelmapper</groupId>
   <artifactId>modelmapper</artifactId>
