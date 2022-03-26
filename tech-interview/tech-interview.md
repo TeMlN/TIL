@@ -1,4 +1,4 @@
-### IoC (제어의 역전)
+# IoC (제어의 역전)
 instance를 생성할때 의존성에 대한 제어권을 개발자가 아닌 spring이 하게 되는 것을 말합니다.
 IoC 없이 instance를 생성할때 `Class instance = new Class()`이런식으로 하게 되는데 이럴경우 이 instance의 생명주기는 해당 class가 가지게 됩니다.
 또한 생성된 instance의 대한 제어권은 해당 클래스가 가지게 됩니다.
@@ -12,7 +12,7 @@ IoC 없이 instance를 생성할때 `Class instance = new Class()`이런식으�
 
 ---
 
-### IoC Container
+# IoC Container
 IoC 컨테이너란 Bean으로 등록된 객체들을 관리하는 컨테이너입니다.
 
 IoC 컨테이너는 ApplicationContext 또는 FactoryBean을 사용합니다 (ApplicationContext는 FactoryBean을 상속받습니다.)
@@ -23,7 +23,7 @@ IoC 컨테이너의 기본 Scope는 SingletonScope이기 때문에 Singleton을 
 
 ---
 
-### Bean
+# Bean
 Bean이란 IoC 컨테이너가 만들어서 직접 그 안에 담고있는 객체입니다
 즉 직접 추상클래스에 구현 클래스를 선언한 인스턴스는 Bean이 아닙니다. ex) `Member member = new Member();`
 
