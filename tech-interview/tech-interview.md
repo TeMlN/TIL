@@ -1,4 +1,4 @@
-# IoC (제어의 역전)
+## IoC (제어의 역전)
 instance를 생성할때 의존성에 대한 제어권을 개발자가 아닌 spring이 하게 되는 것을 말합니다.
 IoC 없이 instance를 생성할때 `Class instance = new Class()`이런식으로 하게 되는데 이럴경우 이 instance의 생명주기는 해당 class가 가지게 됩니다.
 또한 생성된 instance의 대한 제어권은 해당 클래스가 가지게 됩니다.
@@ -10,9 +10,7 @@ IoC 없이 instance를 생성할때 `Class instance = new Class()`이런식으�
 그럼 어떻게 spring이 의존성 주입을 해주는걸까요? 
 정답은 IoC 컨테이너 입니다.
 
----
-
-# IoC Container
+## IoC Container
 IoC 컨테이너란 Bean으로 등록된 객체들을 관리하는 컨테이너입니다.
 
 IoC 컨테이너는 ApplicationContext 또는 FactoryBean을 사용합니다 (ApplicationContext는 FactoryBean을 상속받습니다.)
@@ -21,9 +19,7 @@ IoC 컨테이너는 ApplicationContext 또는 FactoryBean을 사용합니다 (Ap
 
 IoC 컨테이너의 기본 Scope는 SingletonScope이기 때문에 Singleton을 직접 구현하지 않아도 SingleTon 패턴을 사용할 수 있습니다.
 
----
-
-# Bean
+## Bean
 Bean이란 IoC 컨테이너가 만들어서 직접 그 안에 담고있는 객체입니다
 즉 직접 추상클래스에 구현 클래스를 선언한 인스턴스는 Bean이 아닙니다. ex) `Member member = new Member();`
 
@@ -35,3 +31,11 @@ Bean이란 IoC 컨테이너가 만들어서 직접 그 안에 담고있는 객�
 
 직접등록 방법은 `@Bean`어노테이션을 이용해서 등록하거나 XML이나 자바 설정파일로 등록 (저자의 spring-core github repository에서의 AppConfig.class가 자바 설정 파일입니다.)
 
+## DI 
+Dependecy Injection, 의존성 주입
+의존성 주입의 종류는 3가지가 있다.
+* 생성자 주입
+* 필드 주입
+* 세터 주입
+
+이 중 spring에서 권장하는 방법은 **생성자 주입**이다
