@@ -71,3 +71,29 @@ Redis는 데이터를 RAM에 저장하기 때문에 속도가 매우 빠르다.
 
 하지만 RAM은 휘발성이기 때문에 
 특점 지점을 설정하고 디스크에 백업하는 snapshot이라는 백업 과정이 존재한다.
+
+## Query
+쿼리란 데이터베이스에 정보를 요청하는것.
+
+## DDL, DML, DCL
+
+DDL - 데이터베이스의 스키마 객체를 생성, 변경, 제거하거나 권한 부여, 박탈등을 수행하는 문장의 집단이다.
+* CREATE
+* ALTER
+* DROP
+* TRUNCATE
+* GRANT
+등등
+
+DML - 스키마 객체의 데이터를 입력,수정,조회,삭제 등등을 하는 문장의 집단이다.
+* INSERT
+* UPDATE
+* DELETE
+* SELECT
+등등
+
+DCL - 트랜잭션의 성격을 제어
+* SET TRANSACTION
+* COMMIT
+* ROLLBACK
+* SAVEPOINT
