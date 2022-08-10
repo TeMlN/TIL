@@ -146,6 +146,26 @@ Pub-sub 모델의 메시지 큐
 각 서비스마다 독립적이므로 독립적으로 배포가 가능하고, 프로젝트내 여러가지 기술스택이 사용될 수 있다.
 특정 서비스가 장애가 나도, 다른 서비스에 영향을 끼치지 않는다.
 
-## Primitive Type, Reference Type (참조형 타입)
+## Primitive Type, Reference Type
 Primitive Type은 null이 아닌 기본값이 존재한다.
 그에 반면 Reference Type은 기본값이 null이다.
+
+## 추상 클래스와 인터페이스의 차이
+추상 클래스는 클래스 내 추상 메소드가 하나 이상 포함되거나 abstract로 정의된 경우를 말하는 반면 인터페이스는 모든 메소드가 추상 메소드입니다.
+
+추상 클래스는 추상 클래스를 상속받아서 기능을 이용하고 확장하는것을 목표로 하고
+인터페이스는 인터페이스에 정의된 메소드들을 구현하는것을 목표로 합니다.
+
+## REST, REST API, RESTful
+REST는 자원(URI), 행위(Http Method), 자원에 대한 행위의 내용(HTTP Message)으로 이루어져 있습니다.
+
+REST의 특징은 대표적으로
+
+REST는 Client-Server 구조로 이루어져 있으며
+Stateless 한 성격을 가지고 있다
+
+* #### REST API
+REST의 특징을 기반으로 구현한 API를 말합니다.
+REST API를 올바르게 설계하기 위해선 몇가지 규칙들이 존재합니다.
+
+REST의 원리를 따르고 이런 REST API 규칙들을 잘 지킨 시스템을 RESTful 하다고 말할 수 있습니다.
