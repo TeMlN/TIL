@@ -99,7 +99,7 @@ Spring의 의존성주입
 Garbage Collector는 JVM에 종속되어 있으며
 JVM의 Heap 영역에서 동적으로 할당했던 메모리 영역중 필요 없게된 메모리를 주기적으로 삭제해줍니다.
 
-또한 GC가 일어나는 시점에 따라 Young 영역에서 일어나는 Minor GC, Old 영역에서 일어나는 Major GC로 나뉩니다.
+또한 Young 영역에서 일어나는 Minor GC, Old 영역에서 일어나는 Major GC로 나뉩니다.
 
 ## JDK
 Java Development Kit의 약자,
