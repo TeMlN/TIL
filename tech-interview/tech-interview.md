@@ -188,5 +188,7 @@ stater를 통한 dependecy 자동화
 null을 허용할 수 있게 해주는 Wrapper 클래스로
 참조하더라도 NPE가 일어나지 않고 null을 처리해줄 수 있는 여러 기능들을 제공
 
+## N+1
+Lazy Loading 연관 관계가 설정된 엔티티를 조회할 경우에 조회된 데이터 갯수(n) 만큼 연관관계의 조회 쿼리가 추가로 발생하여 데이터를 읽어오는 현상.
 
-
+해결 방법은 entity graph 및 fetch join을 사용하면 된다.
