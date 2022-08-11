@@ -47,7 +47,7 @@ AOP란 관점 지향 프로그래밍으로,
 
 PSA는 그냥 정말 잘만든 interface라 보면 좋다.
 
-## Servlet dispatcher
+## Dispatcher Servlet
 HTTP 프로토콜로 들어오는 모든 요청을 가장 먼저 받아 적합한 컨트롤러에 위임해주는 프론트 컨트롤러(Front Controller)
 
 ## ORM
