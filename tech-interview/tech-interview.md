@@ -157,6 +157,9 @@ Primitive Type은 null이 아닌 기본값이 존재한다. Stack 메모리에 �
 그에 반면 Reference Type은 기본값이 null이다. Heap 메모리에 저장된다.
 종류로는 Enum, Class, Interface 등이 있다
 
+## Wrapper Class
+기본타입에 해당하는 데이터를 객체로 표현하기 위해 포장해주는 클래스
+
 ## 추상 클래스와 인터페이스의 차이
 추상 클래스는 클래스 내 추상 메소드가 하나 이상 포함되거나 abstract로 정의된 경우를 말하는 반면 인터페이스는 모든 메소드가 추상 메소드입니다.
 
