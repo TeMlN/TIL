@@ -96,6 +96,7 @@ IntelliJ에서 자동완성 기능
 Spring의 어노테이션
 
 ## GC
+Garbage Collector는 JVM에 종속되어 있으며
 JVM의 Heap 영역에서 동적으로 할당했던 메모리 영역중 필요 없게된 메모리를 주기적으로 삭제해줍니다.
 
 또한 GC가 일어나는 시점에 따라 Young 영역에서 일어나는 Minor GC, Old 영역에서 일어나는 Major GC로 나뉩니다.
@@ -147,8 +148,11 @@ Pub-sub 모델의 메시지 큐
 특정 서비스가 장애가 나도, 다른 서비스에 영향을 끼치지 않는다.
 
 ## Primitive Type, Reference Type
-Primitive Type은 null이 아닌 기본값이 존재한다.
-그에 반면 Reference Type은 기본값이 null이다.
+Primitive Type은 null이 아닌 기본값이 존재한다. Stack 메모리에 저장된다.
+이 기본형 타입에 Null을 허용하지 않을려면 Wrapper Class를 사용하면 된다.
+
+그에 반면 Reference Type은 기본값이 null이다. Heap 메모리에 저장된다.
+종류로는 Enum, Class, Interface 등이 있다
 
 ## 추상 클래스와 인터페이스의 차이
 추상 클래스는 클래스 내 추상 메소드가 하나 이상 포함되거나 abstract로 정의된 경우를 말하는 반면 인터페이스는 모든 메소드가 추상 메소드입니다.
@@ -169,3 +173,7 @@ REST의 특징을 기반으로 구현한 API를 말합니다.
 REST API를 올바르게 설계하기 위해선 몇가지 규칙들이 존재합니다.
 
 REST의 원리를 따르고 이런 REST API 규칙들을 잘 지킨 시스템을 RESTful 하다고 말할 수 있습니다.
+
+## Spring과 Spring Boot의 차이점
+Spring Boot는 내장 톰캣이 존재하므로 따로 설치하거나 매번 관리해주는 일을 하지 않아도 된다.
+stater를 통한 dependecy 자동화
