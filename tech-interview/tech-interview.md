@@ -90,7 +90,7 @@ Overloading은 메서드명은 같지만 signature를 다르게 설계 하는것
 타입을 클래스 내부에서 지정하는게 아닌 외부에서 사용자에 의해 지정되게 하는 기술.
 필요에 의해 타입을 지정할 수 있으므로 타입을 유연하게 설계할 수 있다.
 
-## Java Reflection ⭐️
+## Java Reflection 
 구체적인 클래스 타입을 알지 못해도 그 클래스의 메소드, 타입, 변수들에 접근할 수 있도록 해주는 Java API
 
 * 사용되는 경우
@@ -191,8 +191,8 @@ stater를 통한 dependecy 자동화
 null을 허용할 수 있게 해주는 Wrapper 클래스로
 참조하더라도 NPE가 일어나지 않고 null을 처리해줄 수 있는 여러 기능들을 제공
 
-## N+1
-Lazy Loading 연관 관계가 설정된 엔티티를 조회할 경우에 조회된 데이터 갯수(n) 만큼 연관관계의 조회 쿼리가 추가로 발생하여 데이터를 읽어오는 현상.
+## N+1 
+연관 관계가 설정된 엔티티를 조회할 경우에 조회된 데이터 갯수(n) 만큼 연관관계의 조회 쿼리가 추가로 발생하여 데이터를 읽어오는 현상.
 
 해결 방법은 entity graph 및 fetch join을 사용하면 된다.
 
@@ -203,3 +203,9 @@ Lazy Loading 연관 관계가 설정된 엔티티를 조회할 경우에 조회�
 ## Filter와 Interceptor의 차이점
 Filter는 Dispatcher Servlet보다 먼저 위치해 있으므로 서블릿 요청 전에 부가적인 일을 처리할 수 있다.
 Interceptor는 Dispatcher Servlet보다 나중에 위치해 있으므로 Dispatcher Servlet이 Controller에 역할을 부임할때 부가적인 일을 처리할 수 있다.
+
+## 쿠키와 세션의 차이점
+저장 방식에 따라 분리할 수 있습니다
+
+쿠키는 로컬 브라우저에 저장하고
+세션은 웹 서버에 저장합니다.
