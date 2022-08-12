@@ -97,3 +97,9 @@ DCL - 트랜잭션의 성격을 제어
 * COMMIT
 * ROLLBACK
 * SAVEPOINT
+
+## LOCK
+여러 사용자들이 같은 데이터를 동시에 접근하는 상황에서 데이터의 무결성과 일관성을 지키기 위해 사용하는 기능
+
+* 낙관적 락 - Transaction 충돌이 발생하지 않는 다는 가정하에 거는 Lock의 일종
+* 비관적 락 - Transaction을 이용하여 충동을 예방하는 Lock의 일종
